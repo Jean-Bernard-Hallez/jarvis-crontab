@@ -13,7 +13,11 @@ For multi-language plugin:
 
 javis-crontab est un programme qui va vous permettre d’exécuter automatiquement des commandes Jarvis à une date et une heure spécifiées à l’avance, ou selon un cycle défini à l’avance.
 
-ATTENTION IL FAUT ETRE dans un Terminal pour pouvoir ouvrir le faire fonctionner. 
+ATTNTION: 
+- Il est bientôt opérationnel à 100% Pour le moment:
+- Il traite que les commandes Crontab Pour Jarvis (ce mot doit apparaitre à chaque commande dans le Cron pour distinguer des autre commandes mise en place par l'utilisateur) !!!
+
+IL FAUT ETRE dans un Terminal pour pouvoir ouvrir le faire fonctionner. 
 Donc il ne s'utilise pas avec la commande vocale !!!
 
 Il faut l'ouvrir dans le répertoire de Jarvis depuis un Terminal (Chemin pour un Raspberry):

@@ -1,5 +1,6 @@
 #!/bin/sh
-version="(jarvis-crontab ver: 1)"
+version="(jarvis-crontab ver: 1.1) ATTENTION Ce Script traite que les commandes Pour Jarvis (Jarvis doit apparaitre à chaque commande dans le Cron) !!!
+"
 separe () {
 echo " "
 echo "\033[45m--------------------------------------------------------------------------------------------\033[0m"
