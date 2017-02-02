@@ -3,4 +3,3 @@
 
 
 
-[[ -z $(which wc) ]] && sudo apt-get install wc

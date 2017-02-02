@@ -10,6 +10,7 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
+(02/02/17 BUG en cours !!!!  En essai de fonctionnement depuis jarvis directement... lancer Jarvis en mode Keyboard et taper XXXXXXXX un Ticket est lancé pour cela)
 
 javis-crontab est un programme qui va vous permettre d’exécuter automatiquement des commandes Jarvis à une date et une heure spécifiées à l’avance, ou selon un cycle défini à l’avance.
 
