@@ -1,6 +1,14 @@
 #!/bin/sh
-version="(jarvis-crontab ver: 1.1) ATTENTION Ce Script traite que les commandes Pour Jarvis (Jarvis doit apparaitre à chaque commande dans le Cron) !!!
-"
+separe11 () {
+reset
+	echo "Désolé cette commande n'ai pas pris en charche le mot 'Jarvis' n'apparait pas (Si c'est important rajouer '# Pour Jarvis' à la fin de votre commande)."
+	echo "Appuyez sur une touche pour revenir au menu..."
+	read reponse
+
+
+echo "la réponse est $reponse"
+}
+
 separe () {
 echo " "
 echo "\033[45m--------------------------------------------------------------------------------------------\033[0m"
@@ -213,7 +221,7 @@ echo "3 --> De l'aide complémentaire...un Bug..."
 echo " "
 echo "Q --> Quitter"
 echo " "
-read reponse
+read reponse &
 
 if [ "$reponse" = "Q" ]; then
 sudo rm $pi >/dev/null 2>&1 
@@ -359,10 +367,9 @@ fi
 	read reponse
 	fi
 
-affichecrontab 
-quefaire
+# affichecrontab 
+# quefaire
 }
 
 affichecrontab 
-quefaire 
-
+quefaire
